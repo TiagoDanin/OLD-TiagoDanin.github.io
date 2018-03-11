@@ -6,7 +6,7 @@ Error: Undefined mixin 'box-sizing'.
 7: //
 8: // Heads up! This reset may cause conflicts with some third-party widgets.
 9: // For recommendations on resolving such conflicts, see
-10: // http://getbootstrap.com/getting-started/#third-box-sizing
+10: // https://getbootstrap.com/getting-started/#third-box-sizing
 11: * {
 12:   @include box-sizing(border-box);
 13: }
@@ -72,4 +72,4 @@ sass/bootstrap/scaffolding.scss:12
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'box-sizing'.\A         on line 12 of sass/bootstrap/scaffolding.scss, in `box-sizing'\A         from line 12 of sass/bootstrap/scaffolding.scss\A \A 7: //\A 8: // Heads up! This reset may cause conflicts with some third-party widgets.\A 9: // For recommendations on resolving such conflicts, see\A 10: // http://getbootstrap.com/getting-started/#third-box-sizing\A 11: * {\A 12:   @include box-sizing(border-box);\A 13: }\A 14: *:before,\A 15: *:after {\A 16:   @include box-sizing(border-box);\A 17: }"; }
+  content: "Error: Undefined mixin 'box-sizing'.\A         on line 12 of sass/bootstrap/scaffolding.scss, in `box-sizing'\A         from line 12 of sass/bootstrap/scaffolding.scss\A \A 7: //\A 8: // Heads up! This reset may cause conflicts with some third-party widgets.\A 9: // For recommendations on resolving such conflicts, see\A 10: // https://getbootstrap.com/getting-started/#third-box-sizing\A 11: * {\A 12:   @include box-sizing(border-box);\A 13: }\A 14: *:before,\A 15: *:after {\A 16:   @include box-sizing(border-box);\A 17: }"; }

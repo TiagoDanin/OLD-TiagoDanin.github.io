@@ -1,0 +1,15 @@
+{
+  "name": "tiagodanin.github.io",
+  "version": "1.0.0",
+  "description": "Build my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Nice test :)\""
+  },
+  "keywords": [
+    "website",
+    "jus"
+  ],
+  "author": "TiagoDanin",
+  "license": "MIT"
+}

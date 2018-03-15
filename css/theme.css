@@ -27,3 +27,8 @@
     display: list-item;
     font-size: 15px;
 }
+
+.uk-align-center {
+    align-content: center;
+    text-align: center;
+}

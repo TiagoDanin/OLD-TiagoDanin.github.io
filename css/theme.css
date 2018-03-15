@@ -1,5 +1,5 @@
 .my-barOne {
-    background: #ffffff;
+    background: #2222221c;
 }
 
 .my-breadcrumb {
@@ -14,9 +14,16 @@
 }
 
 .my-topbar {
-    background: linear-gradient(to left, #222222d9, #222222);
+    background: #ffffff;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.05);
 }
 
 .my-barcmd {
     text-transform: none;
+    color: #666;
+}
+
+.my-barcmd-li>*>:first-child {
+    display: list-item;
+    font-size: 15px;
 }

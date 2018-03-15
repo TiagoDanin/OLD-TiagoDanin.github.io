@@ -30,3 +30,7 @@ ol, ul {
 .reset-border {
 	border: 0;
 }
+
+a {
+	color: #ffffff;
+}

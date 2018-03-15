@@ -1,0 +1,22 @@
+.my-barOne {
+    background: #ffffff;
+}
+
+.my-breadcrumb {
+    padding-left: 20px;
+    margin: 2px;
+}
+
+.my-photo {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 100px;
+}
+
+.my-topbar {
+    background: linear-gradient(to left, #222222d9, #222222);
+}
+
+.my-barcmd {
+    text-transform: none;
+}

@@ -1,0 +1,142 @@
+<!--
+title: Projects
+description: List of Projects.
+-->
+
+<ul uk-accordion>
+	<li class="uk-open">
+		<a class="uk-accordion-title" href="#">GitHub</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.github}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="{{html_url}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">Private</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.private}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="{{url}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">NPM</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.npm}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="https://www.npmjs.com/package/{{name}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">LuaRocks</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.luarocks}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="https://luarocks.org/modules/tiagodanin/{{name}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">Pypi</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.pypi}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="https://pypi.python.org/pypi/{{name}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">Atom</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.atom}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="https://atom.io/packages/{{name}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">Microsoft Store</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.windows}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="{{url}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">AUR Archlinux</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.aur}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="{{url}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+	<li>
+		<a class="uk-accordion-title" href="#">Offline/Old Websites</a>
+		<div class="uk-accordion-content">
+			<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+				{{#each page.data.offline}}
+					<div>
+						<div class="uk-card uk-card-default uk-card-hover uk-card-body">
+							<h3 class="uk-card-title"><a href="{{url}}">{{name}}</a></h3>
+							<p>{{description}}</p>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</li>
+</ul>

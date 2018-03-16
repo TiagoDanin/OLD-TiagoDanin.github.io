@@ -44,3 +44,7 @@
 .uk-card-primary.uk-card-body .uk-slidenav:focus, .uk-card-primary.uk-card-body .uk-slidenav:hover, .uk-card-primary>:not([class*=uk-card-media]) .uk-slidenav:focus, .uk-card-primary>:not([class*=uk-card-media]) .uk-slidenav:hover, .uk-card-secondary.uk-card-body .uk-slidenav:focus, .uk-card-secondary.uk-card-body .uk-slidenav:hover, .uk-card-secondary>:not([class*=uk-card-media]) .uk-slidenav:focus, .uk-card-secondary>:not([class*=uk-card-media]) .uk-slidenav:hover, .uk-light .uk-slidenav:focus, .uk-light .uk-slidenav:hover, .uk-offcanvas-bar .uk-slidenav:focus, .uk-offcanvas-bar .uk-slidenav:hover, .uk-overlay-primary .uk-slidenav:focus, .uk-overlay-primary .uk-slidenav:hover, .uk-section-primary:not(.uk-preserve-color) .uk-slidenav:focus, .uk-section-primary:not(.uk-preserve-color) .uk-slidenav:hover, .uk-section-secondary:not(.uk-preserve-color) .uk-slidenav:focus, .uk-section-secondary:not(.uk-preserve-color) .uk-slidenav:hover, .uk-tile-primary:not(.uk-preserve-color) .uk-slidenav:focus, .uk-tile-primary:not(.uk-preserve-color) .uk-slidenav:hover, .uk-tile-secondary:not(.uk-preserve-color) .uk-slidenav:focus, .uk-tile-secondary:not(.uk-preserve-color) .uk-slidenav:hover {
     color: #0e6dcd;
 }
+
+.uk-comment-primary {
+    background-color: #ffffff00;
+}

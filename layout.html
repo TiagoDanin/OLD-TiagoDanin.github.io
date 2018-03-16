@@ -10,11 +10,11 @@
 	<meta name="author" content="TiagoDanin" />
 
 	<meta property="og:title" content="TiagoDanin" />
-	<meta property="og:url" content="https://TiagoDanin.github.io{{page.href}}" />
+	<meta property="og:url" content="https://TiagoDanin.github.io{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
 	<meta property="og:site_name" content="{{page.title}}" />
 	<meta property="og:description" content="{{page.description}}" />
 	<meta name="twitter:title" content="{{page.title}}" />
-	<meta name="twitter:url" content="https://TiagoDanin.github.io{{page.href}}" />
+	<meta name="twitter:url" content="https://TiagoDanin.github.io{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="uikit-3.0.0-beta.40/css/uikit.min.css">

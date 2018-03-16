@@ -48,16 +48,26 @@
 	<nav class="my-topbar uk-navbar uk-background-primary">
 		<div class="uk-navbar-left">
 			<a href="/" class="uk-navbar-item uk-logo">
-				<img src="images/logo.pngd" class="my-photo uk-margin-small-right">
-				<label>Tiago </label><label class="uk-visible@s">Danin</label>
+				{{#if page.cubohub}}
+					<img src="images/github.pngd" class="my-photo uk-margin-small-right">
+					<label class="uk-visible@s">{{page.title}}</label>
+				{{else}}
+					<img src="images/logo.pngd" class="my-photo uk-margin-small-right">
+					<label>Tiago </label><label class="uk-visible@s">Danin</label>
+				{{/if}}
 			</a>
 		</div>
 		<!--Menu desktop-->
 		<div class="uk-navbar-right">
 			<ul class="uk-navbar-nav uk-visible@s">
-				{{#each page.data.menu}}
-					<li class=""><a href="{{href}}">{{title}}</a></li>
-				{{/each}}
+				{{#if page.cubohub}}
+					<li class=""><a href="https://github.com/{full_name}">View project on GitHub <i class="ti-github"></i></a></li>
+					{links}
+				{{else}}
+					{{#each page.data.menu}}
+						<li class=""><a href="{{href}}">{{title}}</a></li>
+					{{/each}}
+				{{/if}}
 			</ul>
 			<button class="uk-hidden@s uk-button uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-nav-primary" uk-icon="more-vertical">Menu</button>
 		</div>
@@ -107,7 +117,7 @@
 			<p class="uk-align-center">
 				<small>
 					<span uk-icon="code"></span> with <span uk-icon="heart"></span> by <a href="https://github.com/TiagoDanin">Tiago Danin</a>.
-					<br>Built with <a href="http://jus.js.org" target="_blank">Jus</a> and <a href="https://getuikit.com" target="_blank">UiKit</a>
+					<br>Built with <a href="http://jus.js.org" target="_blank">Jus</a> and <a href="https://getuikit.com" target="_blank">UiKit</a>{{#if page.cubohub}} and <a href="https://github.com/CuboHub" target="_blank">CuboHub</a>{{/if}}
 					<br>Hosted in <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
 				</small>
 			</p>
@@ -118,9 +128,14 @@
 		<div id="offcanvas-nav-primary" uk-offcanvas="overlay: false">
 			<div class="uk-offcanvas-bar uk-flex uk-flex-column">
 				<ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-					{{#each page.data.menu}}
-						<li class=""><a href="{{href}}">{{title}}</a></li>
-					{{/each}}
+					{{#if page.cubohub}}
+						<li class=""><a href="https://github.com/{full_name}">View project on GitHub <i class="ti-github"></i></a></li>
+						{links}
+					{{else}}
+						{{#each page.data.menu}}
+							<li class=""><a href="{{href}}">{{title}}</a></li>
+						{{/each}}
+					{{/if}}
 				</ul>
 			</div>
 		</div>

@@ -8,8 +8,8 @@ const chokidar = require('chokidar')
 
 module.exports = function(sourceDir, targetDir) {
 	var ignores = [
-		targetDir,
-		path.join(targetDir, '/**'), // target directory (in case it's inside the source directory.. inception!)
+		//targetDir,
+		//path.join(targetDir, '/**'), // target directory (in case it's inside the source directory.. inception!)
 		/\/\./, // hidden files
 		/node_modules/,
 		/redirects\.json/,

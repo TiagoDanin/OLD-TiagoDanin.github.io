@@ -1,8 +1,8 @@
 scripts/*
 dist/*
-cubohub/links.html
-images/*.png
+source/cubohub/links.html
+source/images/*.png
 build/*
 node_modules/*
-package.json
+package*.json
 TO-DO.*

@@ -11,7 +11,7 @@ npmUserPackages('tiagodanin').then(data => {
 			author: package.author.name
 		})
 	})
-	fs.writeFile('projects/npm.json', JSON.stringify(packages), function(err) {
+	fs.writeFile('source/projects/npm.json', JSON.stringify(packages), function(err) {
 		if(err) {
 			return console.log(err);
 		}

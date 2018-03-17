@@ -10,6 +10,9 @@ description: The Sitemap.
 			{{#each pages}}
 				<li><h4><a href="{{href}}">{{href}}</a></h4></li>
 			{{/each}}
+			{{#each page.data.projects.github}}
+				<li><h4><a href="{{html_url}}">{{name}}</a></h4></li>
+			{{/each}}
 		</ul>
 	</div>
 </div>

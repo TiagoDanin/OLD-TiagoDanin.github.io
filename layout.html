@@ -10,21 +10,21 @@
 	<meta name="author" content="TiagoDanin" />
 
 	<meta property="og:title" content="TiagoDanin" />
-	<meta property="og:url" content="https://TiagoDanin.github.io{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
+	<meta property="og:url" content="{{page.data.meta.baseURL}}{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
 	<meta property="og:site_name" content="{{page.title}}" />
 	<meta property="og:description" content="{{page.description}}" />
 	<meta name="twitter:title" content="{{page.title}}" />
-	<meta name="twitter:url" content="https://TiagoDanin.github.io{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
+	<meta name="twitter:url" content="{{page.data.meta.baseURL}}{{#if page.cubohub}}/{{page.title}}{{else}}{{page.href}}{{/if}}" />
 
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="uikit-3.0.0-beta.40/css/uikit.min.css">
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/colors.css">
-	<link rel="stylesheet" href="css/style_time.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<script src="uikit-3.0.0-beta.40/js/uikit.min.js"></script>
-	<script src="uikit-3.0.0-beta.40/js/uikit-icons.min.js"></script>
+	<link rel="shortcut icon" href="{{page.data.meta.baseURL}}/images/favicon.ico">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/uikit-3.0.0-beta.40/css/uikit.min.css">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/css/theme.css">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/css/reset.css">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/css/colors.css">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/css/style_time.css">
+	<link rel="stylesheet" href="{{page.data.meta.baseURL}}/css/themify-icons.css">
+	<script src="{{page.data.meta.baseURL}}/uikit-3.0.0-beta.40/js/uikit.min.js"></script>
+	<script src="{{page.data.meta.baseURL}}/uikit-3.0.0-beta.40/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -47,12 +47,12 @@
 
 	<nav class="my-topbar uk-navbar uk-background-primary">
 		<div class="uk-navbar-left">
-			<a href="/" class="uk-navbar-item uk-logo">
+			<a href="{{page.data.meta.baseURL}}" class="uk-navbar-item uk-logo">
 				{{#if page.cubohub}}
-					<img src="images/github.pngd" class="my-photo uk-margin-small-right">
+					<img src="{{page.data.meta.baseURL}}/images/github.png" class="my-photo uk-margin-small-right">
 					<label class="uk-visible@s">{{page.title}}</label>
 				{{else}}
-					<img src="images/logo.pngd" class="my-photo uk-margin-small-right">
+					<img src="{{page.data.meta.baseURL}}/images/logo.png" class="my-photo uk-margin-small-right">
 					<label>Tiago </label><label class="uk-visible@s">Danin</label>
 				{{/if}}
 			</a>
@@ -65,7 +65,7 @@
 					{links}
 				{{else}}
 					{{#each page.data.menu}}
-						<li class=""><a href="{{href}}">{{title}}</a></li>
+						<li class=""><a href="{{page.data.meta.baseURL}}{{href}}">{{title}}</a></li>
 					{{/each}}
 				{{/if}}
 			</ul>
@@ -74,13 +74,13 @@
 	</nav>
 
 	{{#if page.description}}
-	<div class="uk-card uk-card-body uk-card-primary">
-		<h3 class="uk-card-title">About</h3>
-		<div class="uk-panel">
-			<p>{{page.description}}</p>
+		<div class="uk-card uk-card-body uk-card-primary">
+			<h3 class="uk-card-title">About</h3>
+			<div class="uk-panel">
+				<p>{{page.description}}</p>
+			</div>
 		</div>
-	</div>
-	<hr class="uk-divider-icon">
+		<hr class="uk-divider-icon">
 	{{/if}}
 
 	{{{body}}}
@@ -90,7 +90,7 @@
 			<h3 class="uk-card-title uk-align-center">Contact Me &amp; Social Media</h3>
 
 			<ul class="uk-child-width-expand@s uk-margin-auto uk-text-center" uk-grid>
-				<li><a href="https://TiagoDanin.github.io/"><i class="ti-home"></i> WebSite</a></li>
+				<li><a href="{{page.data.meta.baseURL}}/"><i class="ti-home"></i> WebSite</a></li>
 				<li><a href="https://telegram.me/WallpapersFull"><i class="ti-gallery"></i> My Wallpapers</a></li>
 				<li><a href="https://unsplash.com/@tiagodanin"><i class="ti-camera"></i> Unsplash</a></li>
 				<li><a href="https://github.com/TiagoDanin"><i class="ti-github"></i> GitHub</a></li>
@@ -133,15 +133,15 @@
 						{links}
 					{{else}}
 						{{#each page.data.menu}}
-							<li class=""><a href="{{href}}">{{title}}</a></li>
+							<li class=""><a href="{{page.data.meta.baseURL}}{{href}}">{{title}}</a></li>
 						{{/each}}
 					{{/if}}
 				</ul>
 			</div>
 		</div>
 	</div>
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/timeline.js"></script>
+	<script src="{{page.data.meta.baseURL}}/js/jquery-1.10.2.min.js"></script>
+	<script src="{{page.data.meta.baseURL}}/js/timeline.js"></script>
 </body>
 
 </html>

@@ -16,7 +16,6 @@ module.exports = function(sourceDir, targetDir) {
 		/npm-debug\.log/,
 	]
 
-	//Need fix
 	//Ignore everything in the source directory's .jusignore file.
 	var jusIgnore = path.join(sourceDir, '/.jusignore')
 	if (fs.existsSync(jusIgnore)) {

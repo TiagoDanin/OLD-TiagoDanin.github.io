@@ -3,15 +3,49 @@
 	License: none (public domain)
 */
 
-table, h1, caption, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-ol, ul {
-	list-style: none;
+
+table,
+h1,
+caption,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/*END*/
+
+/* My */
+
+.reset-margin {
+  margin: 0;
+}
+
+.reset-padding {
+  padding: 0;
+}
+
+.reset-border {
+  border: 0;
 }

@@ -1,0 +1,20 @@
+{
+  "name": "tiagodanin.github.io",
+  "version": "1.0.0",
+  "description": "Build my website",
+  "main": "index.js",
+  "scripts": {
+    "start": "jus serve"
+  },
+  "keywords": [
+    "website",
+    "jus"
+  ],
+  "author": "TiagoDanin",
+  "license": "MIT",
+  "dependencies": {
+    "ignored": "2.0.4",
+    "jus": "0.26.0",
+    "npm-author-most-downloaded": "1.0.0"
+  }
+}

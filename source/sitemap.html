@@ -1,0 +1,18 @@
+<!--
+title: Sitemap
+description: The Sitemap.
+-->
+
+
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+	<div class="uk-card uk-card-default uk-card-body">
+		<ul class="uk-list">
+			{{#each pages}}
+				<li><h4><a href="{{href}}">{{href}}</a></h4></li>
+			{{/each}}
+			{{#each page.data.projects.github}}
+				<li><h4><a href="{{html_url}}">{{name}}</a></h4></li>
+			{{/each}}
+		</ul>
+	</div>
+</div>

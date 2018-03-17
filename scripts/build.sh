@@ -12,4 +12,8 @@ echo "Copy files"
 cp source/images/logo.png images/
 cp source/images/github.png images/
 cp source/cubohub/links.html cubohub/
+echo "Commit"
+date=$(date +%D-%H:%M)
+git add -A
+git commit -S -m "Build in $date"
 echo "Done! :)"

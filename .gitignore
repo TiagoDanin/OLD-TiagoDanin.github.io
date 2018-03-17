@@ -1,3 +1,5 @@
 TO-DO.*
 node_*
 dist/
+source/projects/github.json
+source/projects/npm.json

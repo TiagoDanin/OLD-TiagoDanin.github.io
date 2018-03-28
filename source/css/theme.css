@@ -48,3 +48,7 @@
 .uk-comment-primary {
     background-color: #ffffff00;
 }
+
+.uk-card-primary.uk-card-body .uk-link:hover, .uk-card-primary.uk-card-body a:hover, .uk-card-primary>:not([class*=uk-card-media]) .uk-link:hover, .uk-card-primary>:not([class*=uk-card-media]) a:hover, .uk-light .uk-link:hover, .uk-light a:hover, .uk-offcanvas-bar .uk-link:hover, .uk-offcanvas-bar a:hover, .uk-overlay-primary .uk-link:hover, .uk-overlay-primary a:hover, .uk-section-primary:not(.uk-preserve-color) .uk-link:hover, .uk-section-primary:not(.uk-preserve-color) a:hover, .uk-tile-primary:not(.uk-preserve-color) .uk-link:hover, .uk-tile-primary:not(.uk-preserve-color) a:hover {
+    color: #1e87f0;
+}

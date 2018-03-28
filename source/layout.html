@@ -36,7 +36,11 @@
 
 				<ul class="my-breadcrumb uk-breadcrumb">
 					<li><span class="my-barcmd"><label class="color-blue"> ~ </label><label class="color-red">❯</label><label class="color-yellow">❯</label><label class="color-green">❯</label>  cd TiagoDanin<span></li>
-					<li><span>{{page.title}}</span></li>
+					{{#if page.isHome}}
+						<li><span></span></li>
+					{{else}}
+						<li><span>{{page.title}}</span></li>
+					{{/if}}
 				</ul>
 
 			</ul>

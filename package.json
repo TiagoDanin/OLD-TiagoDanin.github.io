@@ -1,10 +1,11 @@
 {
   "name": "tiagodanin.github.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Build my website",
-  "main": "index.js",
+  "main": "README.md",
   "scripts": {
-    "start": "jus serve"
+    "start": "bash scripts/test.sh",
+    "build": "bash scripts/build.sh"
   },
   "keywords": [
     "website",
@@ -16,5 +17,8 @@
     "ignored": "2.0.4",
     "jus": "0.26.0",
     "npm-author-most-downloaded": "1.0.0"
+  },
+  "devDependencies": {
+    "npx": "^10.0.1"
   }
 }

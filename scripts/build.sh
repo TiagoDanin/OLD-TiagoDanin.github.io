@@ -1,3 +1,5 @@
+echo "Check npm update"
+npm install
 echo "Fix Jus Ignore"
 bash scripts/fixJus.sh
 echo "Get Data Github and NPM"

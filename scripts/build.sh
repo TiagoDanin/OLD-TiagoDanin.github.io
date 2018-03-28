@@ -1,5 +1,5 @@
 echo "Check npm update"
-npm install
+#npm install
 echo "Build meta.json"
 rm source/meta.json -f
 echo '{

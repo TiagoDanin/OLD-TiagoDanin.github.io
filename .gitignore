@@ -3,3 +3,5 @@ node_*
 dist/
 source/projects/github.json
 source/projects/npm.json
+projects/github.json
+projects/npm.json

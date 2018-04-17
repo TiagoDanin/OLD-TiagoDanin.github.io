@@ -10,8 +10,13 @@ description: The Sitemap.
 			{{#each pages}}
 				<li><h4><a href="{{href}}">{{href}}</a></h4></li>
 			{{/each}}
-			{{#each page.data.projects.github}}
-				<li><h4><a href="{{html_url}}">{{name}}</a></h4></li>
+			{{#each page.data.github}}
+				{{#startsWith "https://TiagoDanin" homepage}}
+					<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
+				{{/startsWith}}
+				{{#startsWith "https://tiagodanin" homepage}}
+					<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
+				{{/startsWith}}
 			{{/each}}
 		</ul>
 	</div>

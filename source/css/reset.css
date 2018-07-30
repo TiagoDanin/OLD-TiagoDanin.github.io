@@ -15,7 +15,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
 

@@ -10,7 +10,6 @@
 }
 
 table,
-h1,
 caption,
 nav,
 output,
@@ -27,11 +26,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-
-ol,
-ul {
-  list-style: none;
 }
 
 /*END*/

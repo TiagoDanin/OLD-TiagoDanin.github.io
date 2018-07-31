@@ -39,7 +39,12 @@
 					{{#if page.isHome}}
 						<li><span></span></li>
 					{{else}}
-						<li><span>{{page.title}}</span></li>
+						{{#if page.cubohub}}
+							<li><span></span></li>GitHub
+							<li><span></span></li>{{page.title}}
+						{{else}}
+							{{{replace (capitalizeAll page.href) "/" "<li><span></span></li>"}}}
+						{{/if}}
 					{{/if}}
 				</ul>
 

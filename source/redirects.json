@@ -2,5 +2,6 @@
 	"/contact-me": "/contact",
 	"/blog": "https://medium.com/@TiagoDanin",
 	"/home": "/",
-	"/TiagoDanin.github.io": "/"
+	"/TiagoDanin.github.io": "/",
+	"contacts": "/contact"
 }

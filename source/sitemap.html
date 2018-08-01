@@ -1,5 +1,5 @@
 <!--
-title: Sitemap
+title: SiteMap
 description: The Sitemap.
 -->
 
@@ -10,13 +10,17 @@ description: The Sitemap.
 			{{#each pages}}
 				<li><h4><a href="{{href}}">{{href}}</a></h4></li>
 			{{/each}}
-			{{#each page.data.github}}
-				{{#startsWith "https://TiagoDanin" homepage}}
-					<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
-				{{/startsWith}}
-				{{#startsWith "https://tiagodanin" homepage}}
-					<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
-				{{/startsWith}}
+			{{#each files}}
+				{{#eq path.processRelative 'source/projects/github.json'}}
+					{{#each data}}
+						{{#startsWith "https://TiagoDanin" homepage}}
+							<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
+						{{/startsWith}}
+						{{#startsWith "https://tiagodanin" homepage}}
+							<li><h4><a href="{{name}}">/{{name}}</a></h4></li>
+						{{/startsWith}}
+					{{/each}}
+				{{/eq}}
 			{{/each}}
 		</ul>
 	</div>

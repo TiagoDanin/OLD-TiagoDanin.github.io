@@ -7,6 +7,7 @@ bash scripts/getProjectsGithub.sh
 node scripts/getProjectsNPM.js
 echo "Clear old build"
 bash scripts/clear.sh
+cp source/cubohub/links.html cubohub/ -f
 echo "Build with Jus"
 npx jus build source .
 echo "Commit"

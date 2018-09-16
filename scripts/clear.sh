@@ -8,3 +8,5 @@ rm -r timeline/
 rm -r uikit-3.0.0-beta.40/
 rm *.html -f
 rm menu.json
+rm github.json
+rm cards.json

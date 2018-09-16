@@ -28,6 +28,11 @@ video {
   vertical-align: baseline;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
 /*END*/
 
 /* My */

@@ -2,12 +2,12 @@
 	v2.0 | 20110126
 	License: none (public domain)
 */
+
 *, *::after, *::before {
 	box-sizing: border-box;
 }
 
-table, h1, caption, nav, output, ruby, section, summary,
-time, mark, audio, video {
+table, caption, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,7 +21,9 @@ ol, ul {
 
 /*END*/
 
+
 /* My */
+
 .reset-margin {
 	margin: 0;
 }

@@ -232,7 +232,7 @@ Main Components
   animation-direction: reverse;
 }
 
-.cd-horizontal-timeline .events-content li > * {
+.cd-horizontal-timeline .events-content li>* {
   max-width: 800px;
   margin: 0 auto;
 }

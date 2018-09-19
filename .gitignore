@@ -5,3 +5,7 @@ source/projects/github.json
 source/projects/npm.json
 projects/github.json
 projects/npm.json
+source/github.json
+source/npm.json
+github.json
+npm.json

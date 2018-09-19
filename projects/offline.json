@@ -1,19 +1,17 @@
-[
-    {
-        "name": "WSBrasil [PT-BR]",
-        "url": "#",
-        "description": "Site de noticias tecnológicas."
-    },{
-        "name": "WSForum [PT-BR]",
-        "url": "#",
-        "description": "Um forum sobre tecnológia."
-    },{
-        "name": "WSBSocial [PT-BR]",
-        "url": "#",
-        "description": "Mais uma rede social no mundo :^)"
-    },{
-        "name": "WSBR [PT-BR]",
-        "url": "#",
-        "description": "Canal de tutoriais no Youtube."
-    }
-]
+[{
+	"name": "WSBrasil [PT-BR]",
+	"url": "#",
+	"description": "Site de noticias tecnológicas."
+}, {
+	"name": "WSForum [PT-BR]",
+	"url": "#",
+	"description": "Um forum sobre tecnológia."
+}, {
+	"name": "WSBSocial [PT-BR]",
+	"url": "#",
+	"description": "Mais uma rede social no mundo :^)"
+}, {
+	"name": "WSBR [PT-BR]",
+	"url": "#",
+	"description": "Canal de tutoriais no Youtube."
+}]

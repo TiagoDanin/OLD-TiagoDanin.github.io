@@ -1,6 +1,6 @@
 {
   "name": "tiagodanin.github.io",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Build my website",
   "main": "README.md",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "TiagoDanin",
   "license": "MIT",
   "dependencies": {
+    "canvas-prebuilt": "2.0.0-alpha.14",
     "ignored": "2.0.4",
     "jus": "0.26.0",
     "node-sass": "4.9.3",

@@ -5,7 +5,9 @@
   "main": "README.md",
   "scripts": {
     "start": "bash scripts/test.sh",
-    "build": "bash scripts/build.sh"
+    "build": "bash scripts/build.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "website",
@@ -18,9 +20,11 @@
     "jus": "0.26.0",
     "node-sass": "4.5.0",
     "npm-author-most-downloaded": "1.0.0",
-    "require-dir": "0.3.2"
+    "require-dir": "0.3.2",
+    "snyk": "1.96.0"
   },
   "devDependencies": {
     "npx": "10.2.0"
-  }
+  },
+  "snyk": true
 }

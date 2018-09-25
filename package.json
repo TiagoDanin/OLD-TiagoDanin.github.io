@@ -22,7 +22,7 @@
     "node-sass": "4.9.3",
     "npm-author-most-downloaded": "1.0.0",
     "require-dir": "1.0.0",
-    "snyk": "1.97.1"
+    "snyk": "1.99.0"
   },
   "devDependencies": {
     "npx": "10.2.0"

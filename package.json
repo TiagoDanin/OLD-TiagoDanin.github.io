@@ -19,7 +19,7 @@
     "canvas-prebuilt": "2.0.0-alpha.14",
     "ignored": "2.0.4",
     "jus": "0.26.0",
-    "node-sass": "4.9.4",
+    "node-sass": "4.10.0",
     "npm-author-most-downloaded": "1.0.0",
     "require-dir": "1.1.0",
     "snyk": "1.106.1"

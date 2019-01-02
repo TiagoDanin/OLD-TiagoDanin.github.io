@@ -1,17 +1,8 @@
-const npmUserPackages = require('npm-user-packages')
+const npmUserPackages = require('npm-user-packages-downloads')
 const fs = require('fs')
 
-npmUserPackages('tiagodanin').then(data => {
-	//console.log(data)
-	var packages = []
-	data.forEach(package => {
-		packages.push({
-			name: package.name,
-			description: package.description,
-			author: package.author.name
-		})
-	})
-	fs.writeFile('source/projects/npm.json', JSON.stringify(packages), function(err) {
+npmUserPackages('tiagodanin', '2010-01-01:2100-01-01').then(data => {
+	fs.writeFile('source/projects/npm.json', JSON.stringify(data), (err) => {
 		if(err) {
 			return console.log(err);
 		}

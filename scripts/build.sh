@@ -13,6 +13,6 @@ cp source/cubohub/links.html cubohub/ -f
 echo "Commit"
 date=$(date +%D-%H:%M)
 git add -A
-git commit -S -m "Build in $date"
+git commit -S -m "feat: Build in $date"
 git push
 echo "Done! :)"

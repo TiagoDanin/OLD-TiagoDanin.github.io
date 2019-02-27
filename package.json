@@ -21,7 +21,8 @@
     "test": "echo \"Nice Test :)\"",
     "build": "bash scripts/build.sh",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "private": false,
   "repository": "https://github.com/TiagoDanin/TiagoDanin.github.io.git",
@@ -45,9 +46,11 @@
     "jus": "0.26.0",
     "node-sass": "4.10.0",
     "npm-user-packages-downloads": "1.0.0",
-    "require-dir": "1.1.0"
+    "require-dir": "1.1.0",
+    "snyk": "^1.135.0"
   },
   "devDependencies": {
     "npx": "10.2.0"
-  }
+  },
+  "snyk": true
 }

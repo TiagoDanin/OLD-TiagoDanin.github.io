@@ -50,7 +50,7 @@
 		"snyk": "^1.161.1"
 	},
 	"devDependencies": {
-		"npx": "10.2.0"
+		"npx": "^10.2.0"
 	},
 	"snyk": true
 }

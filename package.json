@@ -1,56 +1,56 @@
 {
-  "name": "tiagodanin.github.io",
-  "main": "index.js",
-  "version": " 3.2.0",
-  "description": "My website (tiagodanin)",
-  "author": {
-    "name": "Tiago Danin",
-    "email": "TiagoDanin@outlook.com",
-    "url": "https://TiagoDanin.github.io"
-  },
-  "license": "MIT",
-  "keywords": [
-    "website",
-    "jus",
-    "tiagodanin",
-    "package",
-    "web"
-  ],
-  "scripts": {
-    "start": "bash scripts/test.sh",
-    "test": "echo \"Nice Test :)\"",
-    "build": "bash scripts/build.sh",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect",
-    "prepublish": "npm run snyk-protect"
-  },
-  "private": false,
-  "repository": "https://github.com/TiagoDanin/TiagoDanin.github.io.git",
-  "homepage": "https://TiagoDanin.github.io",
-  "bugs": "https://github.com/TiagoDanin/TiagoDanin.github.io/issues",
-  "github": {
-    "name": "TiagoDanin.github.io",
-    "owner": "TiagoDanin"
-  },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js",
-    "package.json",
-    "scripts",
-    "source"
-  ],
-  "dependencies": {
-    "canvas-prebuilt": "2.0.0-alpha.14",
-    "ignored": "2.0.4",
-    "jus": "0.26.0",
-    "node-sass": "4.10.0",
-    "npm-user-packages-downloads": "1.0.0",
-    "require-dir": "1.1.0",
-    "snyk": "^1.161.1"
-  },
-  "devDependencies": {
-    "npx": "10.2.0"
-  },
-  "snyk": true
+	"name": "tiagodanin.github.io",
+	"main": "index.js",
+	"version": " 3.2.0",
+	"description": "My website (tiagodanin)",
+	"author": {
+		"name": "Tiago Danin",
+		"email": "TiagoDanin@outlook.com",
+		"url": "https://TiagoDanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"website",
+		"jus",
+		"tiagodanin",
+		"package",
+		"web"
+	],
+	"scripts": {
+		"start": "bash scripts/test.sh",
+		"test": "echo \"Nice Test :)\"",
+		"build": "bash scripts/build.sh",
+		"snyk-protect": "snyk protect",
+		"prepare": "npm run snyk-protect",
+		"prepublish": "npm run snyk-protect"
+	},
+	"private": false,
+	"repository": "https://github.com/TiagoDanin/TiagoDanin.github.io.git",
+	"homepage": "https://TiagoDanin.github.io",
+	"bugs": "https://github.com/TiagoDanin/TiagoDanin.github.io/issues",
+	"github": {
+		"name": "TiagoDanin.github.io",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"package.json",
+		"scripts",
+		"source"
+	],
+	"dependencies": {
+		"canvas-prebuilt": "2.0.0-alpha.14",
+		"ignored": "2.0.4",
+		"jus": "0.26.0",
+		"node-sass": "4.10.0",
+		"npm-user-packages-downloads": "1.0.0",
+		"require-dir": "1.1.0",
+		"snyk": "^1.161.1"
+	},
+	"devDependencies": {
+		"npx": "10.2.0"
+	},
+	"snyk": true
 }

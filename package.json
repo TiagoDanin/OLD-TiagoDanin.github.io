@@ -46,7 +46,7 @@
 		"jus": "0.26.0",
 		"node-sass": "4.10.0",
 		"npm-user-packages-downloads": "1.0.0",
-		"require-dir": "1.1.0",
+		"require-dir": "1.2.0",
 		"snyk": "^1.161.1"
 	},
 	"devDependencies": {

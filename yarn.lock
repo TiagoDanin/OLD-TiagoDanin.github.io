@@ -6645,9 +6645,10 @@ request@^2.44.0, request@^2.61.0, request@^2.74.0, request@^2.87.0, request@^2.8
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
-require-dir@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/require-dir/-/require-dir-1.1.0.tgz#1ce24f41b57bcc31210fe0a9c4ede85b28cfa907"
+require-dir@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/require-dir/-/require-dir-1.2.0.tgz#0d443b75e96012d3ca749cf19f529a789ae74817"
+  integrity sha512-LY85DTSu+heYgDqq/mK+7zFHWkttVNRXC9NKcKGyuGLdlsfbjEPrIEYdCVrx6hqnJb+xSu3Lzaoo8VnmOhhjNA==
 
 require-dir@^0.3.0:
   version "0.3.2"

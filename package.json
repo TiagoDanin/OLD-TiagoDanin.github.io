@@ -47,7 +47,7 @@
 		"node-sass": "4.12.0",
 		"npm-user-packages-downloads": "1.0.0",
 		"require-dir": "1.2.0",
-		"snyk": "^1.189.0"
+		"snyk": "^1.222.1"
 	},
 	"devDependencies": {
 		"npx": "^10.2.0"

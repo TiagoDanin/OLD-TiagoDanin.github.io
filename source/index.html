@@ -18,7 +18,12 @@ showTimeline: true
 						<div class="uk-card uk-card uk-card-default">
 							<div class="uk-card-body">
 								<h3 class="uk-card-title">{{title}}</h3>
-								<p>{{{description}}}</p>
+								<p>
+									{{{description}}}
+									<br>
+									<a href="https://github.com/{{repo}}">Open in <i class="ti-github"></i> GitHub</a>
+									<cite class="author">&mdash; {{author}}</cite>
+								</p>
 							</div>
 						</div>
 					</li>

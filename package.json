@@ -18,7 +18,7 @@
 	],
 	"scripts": {
 		"start": "bash scripts/test.sh",
-		"test": "echo \"Nice Test :)\"",
+		"test": "bash scripts/test.sh",
 		"build": "bash scripts/build.sh"
 	},
 	"private": false,

@@ -4251,9 +4251,10 @@ less@^2.6.1:
     request "2.81.0"
     source-map "^0.5.3"
 
-libnpx@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/libnpx/-/libnpx-10.2.0.tgz#1bf4a1c9f36081f64935eb014041da10855e3102"
+libnpx@10.2.2:
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/libnpx/-/libnpx-10.2.2.tgz#5a4171b9b92dd031463ef66a4af9f5cbd6b09572"
+  integrity sha512-ujaYToga1SAX5r7FU5ShMFi88CWpY75meNZtr6RtEyv4l2ZK3+Wgvxq2IqlwWBiDZOqhumdeiocPS1aKrCMe3A==
   dependencies:
     dotenv "^5.0.1"
     npm-package-arg "^6.0.0"
@@ -5236,12 +5237,12 @@ npm@5.1.0:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-npx@^10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/npx/-/npx-10.2.1.tgz#6d46562b38eff68841567b85b8af21caeba16c91"
-  integrity sha512-3drNIp6RLYMD64rym3PBwJM+VXTuM76metmioc8hRoCtMgRPM5CEUX3rzNXfg5LZHExNipumCLFmscP77klNkQ==
+npx@^10.2.2:
+  version "10.2.2"
+  resolved "https://registry.yarnpkg.com/npx/-/npx-10.2.2.tgz#de4be1b76e6bcbf750486925b34a07eed1db01b4"
+  integrity sha512-eImmySusyeWphzs5iNh791XbZnZG0FSNvM4KSah34pdQQIDsdTDhIwg1sjN3AIVcjGLpbQ/YcfqHPshKZQK1fA==
   dependencies:
-    libnpx "10.2.0"
+    libnpx "10.2.2"
     npm "5.1.0"
 
 nth-check@~1.0.0, nth-check@~1.0.1:

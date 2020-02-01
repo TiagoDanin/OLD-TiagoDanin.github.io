@@ -46,6 +46,6 @@
 		"require-dir": "1.2.0"
 	},
 	"devDependencies": {
-		"npx": "^10.2.1"
+		"npx": "^10.2.2"
 	}
 }

@@ -41,7 +41,7 @@
 		"canvas-prebuilt": "2.0.0-alpha.14",
 		"ignored": "2.0.4",
 		"jus": "0.26.0",
-		"node-sass": "4.14.0",
+		"node-sass": "4.14.1",
 		"npm-user-packages-downloads": "1.0.0",
 		"require-dir": "1.2.0"
 	},

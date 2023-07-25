@@ -39,7 +39,7 @@
 	],
 	"dependencies": {
 		"jus-lite": "^1.0.2",
-		"node-fetch": "^3.3.0",
+		"node-fetch": "^3.3.2",
 		"npm-user-packages-downloads": "^1.0.0"
 	}
 }
